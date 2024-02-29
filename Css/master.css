@@ -61,6 +61,11 @@ html {
   font-size: 55px;
   line-height: 1.2;
 }
+@media (max-width: 767px) {
+  .hero .info-box {
+    font-size: 25px;
+  }
+}
 .hero::before {
   content: "";
   position: absolute;
