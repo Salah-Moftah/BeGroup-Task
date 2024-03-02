@@ -104,6 +104,14 @@ header {
   font-weight: 700;
   font-size: 15px;
 }
+@media (max-width: 767px) {
+  .conect a {
+    font-size: 12px;
+  }
+  header .mail {
+    border: none !important;
+  }
+}
 .navbar-nav li a:hover {
   color: var(--main-color);
 }
